@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './Log.css'
 
 const Login = () => {
   const [formData, setFormData] = useState({ username: '', password: '' });
@@ -111,8 +112,8 @@ const Login = () => {
           onChange={handleChange}
           required
         /><br />
-        <button type="submit">Login</button>
-        <button type="button" onClick={handleSignUp} style={{ marginLeft: '10px' }}>
+        <button id="in" type="submit">Login</button>
+        <button id="up" type="button" onClick={handleSignUp} style={{ marginLeft: '10px' }}>
           Sign Up
         </button>
         {error && <p style={{ color: 'red' }}>{error}</p>}

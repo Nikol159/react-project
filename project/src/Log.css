@@ -1,0 +1,44 @@
+div{
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: rgb(207, 60, 31);
+
+
+}
+
+button{
+
+    background-color:rgb(124, 231, 42) ;
+    color:rgb(149, 30, 6);
+
+}
+
+button:hover {
+    background-color: rgb(149, 30, 6);
+    color: white;
+  }
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(177, 253, 118);
+    color:rgb(149, 30, 6);
+}
+
+body{
+    
+    background-image: url('./images/rose1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
