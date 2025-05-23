@@ -1,13 +1,15 @@
 div{
-  max-width: 400px;
-  margin: 80px auto;
-  padding: 30px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: #f9f9f9;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  background-color: rgb(207, 60, 31);
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(207, 60, 31, 0.3);     
+    backdrop-filter: blur(10px);            
+    -webkit-backdrop-filter: blur(10px);     
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: Arial, sans-serif;
+    color: #fff;
 
 
 }
