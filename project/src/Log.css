@@ -1,4 +1,4 @@
-div{
+.login-container{
     max-width: 400px;
     margin: 80px auto;
     padding: 30px;
@@ -14,19 +14,19 @@ div{
 
 }
 
-button{
+.login-container button{
 
     background-color:rgb(124, 231, 42) ;
     color:rgb(149, 30, 6);
 
 }
 
-button:hover {
+.login-container button:hover {
     background-color: rgb(149, 30, 6);
     color: white;
   }
 
-input{
+.login-container input{
     width: 100%;
     padding: 10px;
     margin: 8px 0;
@@ -37,7 +37,7 @@ input{
     color:rgb(149, 30, 6);
 }
 
-body{
+body.login-page{
     
     background-image: url('./images/rose1.jpg');
     background-repeat: no-repeat;

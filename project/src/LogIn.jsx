@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Log.css'
 
@@ -90,10 +90,15 @@ const Login = () => {
     }
   };
   
-  
+  useEffect(() => {
+    document.body.classList.add("login-page");
+    return () => {
+      document.body.classList.remove("login-page");
+    };
+  }, []);  
 
   return (
-    <div>
+    <div className="login-container">
       <h2>Login / Sign Up</h2>
       <form onSubmit={handleLogin}>
         <input
