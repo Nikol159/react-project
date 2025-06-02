@@ -1,0 +1,46 @@
+{
+    "flowers": [
+      {
+        "id": 1,
+        "name": "Gerbera",
+        "type": "Perennial herbaceous plant",
+        "description": "A bright and cheerful flower, symbolizing joy and purity, with vibrant, intense colors.",
+        "image": "./images/gerbera.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Orchid",
+        "type": "Epiphytic/tropical plant",
+        "description": "An exotic and delicate bloom with perfect symmetry and refined, elegant beauty.",
+        "image": "./images/orchid.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Peony",
+        "type": "Perennial flowering plant",
+        "description": "A lush and magnificent flower that embodies romance, abundance, and prosperity.",
+        "image": "./images/peony.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Anemone",
+        "type": "Bulbous/rhizomatous flower",
+        "description": "A soft and airy blossom with harmonious tones, evoking lightness and freedom.",
+        "image": "./images/anemone.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Daffodil",
+        "type": "Bulbous spring flower",
+        "description": "A symbol of new beginnings and hope, with bright yellow or white trumpet-shaped blooms.",
+        "image": "./images/daffodil.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Hyacinth",
+        "type": "Bulbous flower",
+        "description": "A fragrant and compact flower that delights with rich colors and a strong spring aroma.",
+        "image": "./images/hyacinth.jpg"
+      }
+    ]
+  }  

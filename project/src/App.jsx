@@ -4,6 +4,7 @@ import './App.css'
 import Login from './LogIn'
 import MainPage from './MainPage';
 import Navbar from './Navbar';
+import AllFlowers from './AllFlowers';
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/main" element={<MainPage />} />
+        <Route path="/flowers" element={<AllFlowers />} />
       </Routes>
     </Router>
   );
