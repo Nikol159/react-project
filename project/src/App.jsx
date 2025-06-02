@@ -5,6 +5,7 @@ import Login from './LogIn'
 import MainPage from './MainPage';
 import Navbar from './Navbar';
 import AllFlowers from './AllFlowers';
+import Roses from './Roses';
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -28,6 +29,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/main" element={<MainPage />} />
         <Route path="/flowers" element={<AllFlowers />} />
+        <Route path="/roses" element={<Roses />} />
       </Routes>
     </Router>
   );

@@ -1,5 +1,5 @@
-.allflowers-container {
-    background-image: url('./images/rose1.jpg'); /* Избери друго подходящо изображение */
+.roses-container {
+    background-image: url('./images/rose1.jpg'); /* Можеш да смениш с любим фон */
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -8,7 +8,7 @@
   }
   
   .overlay {
-    background-color: rgba(255, 255, 255, 0.92);
+    background-color: rgba(255, 255, 255, 0.93);
     min-height: 100vh;
     padding: 50px 20px;
     display: flex;
@@ -22,21 +22,21 @@
     text-align: center;
   }
   
-  .main-title {
+  .roses-title {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #3e7d5d;
+    color: #b13c57;
   }
   
-  .main-subtitle {
+  .roses-subtitle {
     font-size: 20px;
-    color: #555;
+    color: #444;
     margin-bottom: 15px;
   }
   
-  .main-quote {
+  .roses-quote {
     font-style: italic;
-    color: #7a7a7a;
+    color: #777;
     margin-bottom: 40px;
   }
   
@@ -47,45 +47,39 @@
     padding: 0 10px;
   }
   
-  .flower-card {
+  .rose-card {
     background-color: #fff;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 6px 20px rgba(62, 125, 93, 0.2);
+    box-shadow: 0 6px 20px rgba(177, 60, 87, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .flower-card:hover {
+  .rose-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(62, 125, 93, 0.3);
+    box-shadow: 0 12px 30px rgba(177, 60, 87, 0.3);
   }
   
-  .flower-image {
+  .rose-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
   }
   
-  .flower-info {
+  .rose-info {
     padding: 20px;
   }
   
-  .flower-info h3 {
+  .rose-info h3 {
     margin: 0;
     font-size: 20px;
-    color: #3e7d5d;
+    color: #b13c57;
   }
   
-  .flower-info p {
+  .rose-info p {
     font-size: 14px;
     color: #555;
-    margin: 10px 0;
-  }
-  
-  .flower-type {
-    font-size: 13px;
-    color: #888;
-    font-style: italic;
+    margin: 6px 0;
   }
   
   .footer {
@@ -101,20 +95,22 @@
   .footer-links a {
     margin: 0 10px;
     text-decoration: none;
-    color: #3e7d5d;
+    color: #b13c57;
     transition: color 0.3s ease;
   }
   
   .footer-links a:hover {
-    color: #2b5c44;
+    color: #8d2b41;
   }
   
+  /* Responsive */
   @media (max-width: 768px) {
-    .main-title {
+    .roses-title {
       font-size: 28px;
     }
   
-    .flower-image {
+    .rose-image {
       height: 180px;
     }
   }
+  
